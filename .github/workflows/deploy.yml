@@ -5,6 +5,10 @@ on:
     branches:
       - main # or master, depending on your default branch
 
+# Add permissions block
+permissions:
+  contents: write
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
